@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Email Subscribe</title>
+</head>
+<body>
+    <!-- Background container -->
+    <div class="flex items-center justify-center h-screen bg-zinc-700">
+        <!-- Card -->
+        <div class="bg-zinc-800 p-2 mx-6 rounded-lg">
+            <!-- Flex container -->
+            <div class="flex flex-col md:flex-row rounded-l-lg">
+                <!-- Image -->
+                <img src="/bread.jpg" alt="bread" class="object-fit rounded-lg h-80 md:h-64 md:rounded-l-lg md:rounded-r-none transform hover:scale-105 hover:rounded-lg duration-200"/>
+                <div class="p-6 md:p-12">
+                    <h2 class="font-serif font-bold text-white text-center text-xl md:text-left">
+                        Subscribe to our newsletter and get 10% discount on your next order
+                    </h2>
+                    <p class="max-w-s text-center my-4 text-s leading-5 tracking-wide text-white md:text-left">
+                        Get updates about our food and drink menue and special offers
+                    </p>
+                    <div class="flex flex-col mt-5 space-y-4 md:flex-row md:space-x-3 md:space-y-0">
+                        <input type="text" placeholder="Enter your email address" class="p-2 px-4 text-center text-white bg-zinc-800 border border-zinc-600 placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none"/>
+                        <button class="text-zinc-800 px-5 py-3 rounded-md bg-lime-500 hover:bg-lime-700 hover:text-white duration-500">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
